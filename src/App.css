@@ -1,0 +1,489 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.approved-row {
+  background-color: rgb(172, 237, 172) !important;
+}
+
+
+
+.tooltip-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip-entry {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tooltip-entry:last-child {
+  border-bottom: none;
+}
+
+.employee-name {
+  font-weight: 500;
+}
+
+.employee-hours {
+  color: #888;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.emp-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  block-size: fit-content;
+}
+
+.menu-div {
+  width: 20vw;
+  height: 90vh;
+  background-color: white;
+}
+
+.form-container {
+  width: 80vw;
+  height: 90vh;
+  background-color: #f7f9ff;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin-top: 10vh */
+}
+
+.SalecampusForm-data-os {
+  width: 60%;
+  background-color: #f7f9ff;
+  padding: 2rem 4rem;
+}
+
+.form-div {
+
+  width: 40%;
+  background-color:#F7F9FF;
+  height: 100%;
+  margin-right: 48%;
+  /* margin-top:7% */
+}
+
+.emp-div-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  padding: 6%;
+  padding-left: 10px;
+  padding-right: 4%;
+  border-radius: 5px;
+  width: 13vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-width: 1px solid #094781;
+  background-color: #ffffff;
+  border: 1.69622px solid #d8d6d6;
+  border-radius: 4.24055px;
+}
+
+.emp-label {
+  font-weight: bold;
+  color: #094781;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.btn-btn-primary {
+}
+
+.upwork {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.83px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  min-width: fit-content;
+  margin-left: 4%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 4px;
+  border-radius: 15px;
+}
+
+.add-div {
+  display: flex;
+  width: 50%;
+  margin-right: 15%;
+  justify-content: flex-start;
+  margin-top: 64px;
+  flex-direction: column;
+}
+
+.add-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26.1px;
+  line-height: 39px;
+  letter-spacing: 0.02em;
+  height: 25px;
+  color: #094781;
+  position: "absolute";
+}
+
+.add-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3508px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  color: #094781;
+}
+
+.add-input {
+  background: #ffffff;
+  border: 1.69622px solid #d8d6d6;
+  border-radius: 4.24055px;
+  box-sizing: border-box;
+  width: 267.15px;
+  height: 53.43px;
+  min-height: 53.43px;
+  margin-top: 10px;
+  padding-inline: 10px;
+}
+.round-button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right:"15px"
+
+}
+
+.round-button:hover {
+  background-color: #ddd;
+}
+
+
+.add-button {
+  width: 161px;
+  height: 43px;
+  left: 340px;
+  top: 604px;
+  background: #094781;
+  border-radius: 4.96885px;
+  margin-top: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7263px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.nav-dropDown {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.83px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  padding: 0;
+  color: #bdbdbd;
+}
+
+.go-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.83px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  background: #154880;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.nav-proj-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.292px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-shadow: 0px 2px 9px rgba(0, 0, 0, 0.09);
+  background: #fd7c50;
+  border: 1px solid #454545;
+  border-radius: 50px;
+}
+
+.nav-date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.83px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #2a2a2a;
+}
+
+.nav-hrs-estimate {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.83px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #2a2a2a;
+  border: 1px solid #bebebe;
+  border-radius: 99px;
+  width: 221px;
+  height: 25px;
+  left: 1141px;
+  top: 165px;
+  padding: 4px 20px 4px;
+}
+
+.proj-person {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.15px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #154880;
+  margin-bottom: 1.5%;
+  margin-left: 2%;
+}
+
+.table-data {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.15px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #676767;
+}
+
+.containerStyle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.totalLeaveStyle {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.uncertainLeaveStyle {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.regularLeaveStyle {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* salecampus css starts */
+css .campus_form {
+  width: 90%;
+  margin: 0 auto;
+}
+.SalecampusForm-input-os input,
+.SalecampusForm-input-os select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.SalecampusForm-col-os {
+  padding-bottom: 2rem;
+}
+.gender {
+  position: relative;
+}
+.gender select {
+  width: 100%;
+  /* margin-top: 15px; */
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 30px;
+}
+.SalecampusForm-submit-os button {
+  width: 40%;
+  padding: 10px;
+  background: #071c4d;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+.gender1-radio {
+  width: 7%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.SalecampusForm-data-os h2 {
+  padding-bottom: 1rem;
+  color: #071c4d;
+  font-size: 27px;
+}
+.error-message-os {
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 0;
+}
+.SalecampusForm-radio-os {
+  display: flex;
+  align-items: center;
+}
+.SalecampusForm-radio-os label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.SalecampusForm-radio-os label input {
+  cursor: pointer;
+}
+.SalecampusForm-radio-row-os {
+  display: flex;
+  align-items: center;
+  gap: 1rem 2rem;
+  padding-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.SalecampusFormList-default-os {
+  padding: 3rem;
+}
+/* table css starts */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* table css ends */
+/* salecampus css end */
+
+.SalesInfoForm-radio-os label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 30%;
+}
+.SalesInfoForm-radio-os {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 0.2rem;
+}
+.SalesInfoForm-input-os input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.SalesInfoForm-input-os {
+  width: 70%;
+}
+.SalesInfoForm-input-os input:disabled {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+/* styles.css */
+
+.interested {
+  background-color: #bdfbab !important;
+}
+
+.not-interested {
+  background-color: #f64c4c !important;
+}
+
+.hopefully {
+  background-color: #f8e07f !important;
+}
+
+.not-picked {
+  background-color: #f19b2b !important;
+}
+
+.enrolled {
+  background-color: #92b3fb !important;
+}
+
+/* This ensures that every row, regardless of whether it is even or odd, takes the color based on its class and doesn't get shaded differently */
+/* .ant-table-row.interested,
+.ant-table-row.not-interested,
+.ant-table-row.hopefully,
+.ant-table-row.not-picked,
+.ant-table-row.enrolled {
+  background-color: inherit;
+} */
+
